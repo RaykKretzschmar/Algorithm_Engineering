@@ -14,17 +14,17 @@ Nachteile:
 - kann etwas langsamer sein als andere Compiler
 
 ### Clang: 
-Clang ist ein weiterer kostenloser und quelloffener Compiler, der von der LLVM-Projektgruppe entwickelt wird.
+Clang ist ein kostenloser und quelloffener Compiler, der von der LLVM-Projktgruppe entwickelt wird.
 
 Vorteile:
-- kostenlos und quelloffen
+- kostenlos und Open-Source
 - unterstützt OpenMP
 - schneller als GCC
 
 Nachteile:
 - nicht so weit verbreitet wie GCC
 
-### Microsoft Visual Studio Compiler: 
+### Microsoft Visual C++: 
 Der Microsoft Visual Studio Compiler ist ein kommerzieller Compiler, der von Microsoft entwickelt wird.
 
 Vorteile:
@@ -43,3 +43,6 @@ Nachteile:
 - IBM XL C++ Compiler
 - PathScale EKO C++ Compiler
 - ARM Compiler 6
+
+#### Zusatz:
+Mittlerweile unterstützt fast jeder aktuelle C++ Compiler OpenMP.
