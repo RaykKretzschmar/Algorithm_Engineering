@@ -46,3 +46,8 @@ Nachteile:
 
 #### Zusatz:
 Mittlerweile unterstützt fast jeder aktuelle C++ Compiler OpenMP.
+
+
+# Read Chapter 1 from Computer Systems: A Programmer's Perspective - Discuss two things you find particularly interesting
+http://csapp.cs.cmu.edu/2e/ch1-preview.pdf
+
