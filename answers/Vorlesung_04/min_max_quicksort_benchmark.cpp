@@ -1,6 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <numeric>
 #include <limits>
 #include <omp.h>
 #include <parallel/algorithm>
@@ -116,7 +117,7 @@ int main() {
     }
 
     const std::vector<uint64_t> seeds = {123, 456, 789}; // Different seeds for variability
-    const std::vector<int64_t> array_sizes = {1000, 10000, 100000, 1000000, 10000000, 100000000}; // 1e3 to 1e8
+    const std::vector<int64_t> array_sizes = {100000, 500000, 1000000, 5000000, 10000000, 20000000, 30000000, 40000000, 50000000, 60000000, 70000000, 80000000, 90000000, 100000000}; // 1e3 to 1e8
     const std::vector<int> thread_counts = {1, 2, 4, 8, 16, 24};
     const int64_t fixed_size = 100000000; // Fixed array size for thread benchmark 1e8
     
