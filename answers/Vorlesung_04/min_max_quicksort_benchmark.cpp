@@ -116,9 +116,9 @@ int main() {
     }
 
     const std::vector<uint64_t> seeds = {123, 456, 789}; // Different seeds for variability
-    const std::vector<int64_t> array_sizes = {1e7, 2e7, 3e7, 4e7, 5e7, 6e7, 7e7, 8e7, 9e7, 1e8};
+    const std::vector<int64_t> array_sizes = {1000, 10000, 100000, 1000000, 10000000, 100000000}; // 1e3 to 1e8
     const std::vector<int> thread_counts = {1, 2, 4, 8, 16, 24};
-    const int64_t fixed_size = 1e8; // Fixed array size for thread benchmark
+    const int64_t fixed_size = 100000000; // Fixed array size for thread benchmark 1e8
     
     for (auto seed : seeds) {
     
@@ -129,9 +129,10 @@ int main() {
         file_array_size << "ArraySize,StdSort,MinMaxQuickSort,GnuParallelSort\n";
         file_num_threads << "NumThreads,StdSort,MinMaxQuickSort,GnuParallelSort\n";
 
+        double time_std_sort, time_min_max_quicksort, time_gnu_parallel;
+
         for (auto size : array_sizes) {
             std::vector<int64_t> data(size);
-            double time_std_sort, time_min_max_quicksort, time_gnu_parallel;
             Xoroshiro128Plus generator(seed);
             for (int64_t i = 0; i < size; ++i) {
                 data[i] = generator();
