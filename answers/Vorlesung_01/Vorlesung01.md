@@ -3,7 +3,7 @@
 ### Welche C++ Compiler gibt es und was sind die Vor- und Nachteile dieser individuellen Compiler?
 
 #### GNU Compiler Collection (GCC): 
-Der GNU Compiler Collection ist ein kostenloser und quelloffener Compiler, der von der GNU Project-Gruppe entwickelt wird.
+Der/die GNU Compiler Collection ist ein kostenloser und quelloffener Compiler, der von der GNU Project-Gruppe entwickelt wird.
 
 Vorteile:
 - kostenlos und Open-Source
@@ -65,12 +65,12 @@ Mittlerweile unterstützt fast jeder aktuelle C++ Compiler OpenMP.
 Die sechs Phasen des Compilers können auf die vier Phasen des Compilers reduziert werden, indem die Phasen der lexikalischen Analyse und der Syntaxanalyse in die Phase des Compilers zusammengefasst werden. Die Phasen der semantischen Analyse, der Generierung von Zwischencode, der Optimierung und der Codegenerierung können in die Phase des Assemblers zusammengefasst werden. In diesem Fall würde der Compiler die Quelldatei lesen und den Objektcode direkt generieren, ohne dass eine separate Assemblierungsphase erforderlich ist. Die vier Phasen des Compilers wären dann: Preprocessing, Compilation, Assembly und Linking.
 
 #### Was sind Vor- und Nachteile der Aufteilung in Phasen?
-Die Aufteilung in Phasen hat mehrere Vorteile. Zum einen ist es einfacher, die einzelnen Schritte zu verstehen und zu überprüfen, ob sie korrekt ausgeführt wurden. Zum anderen ermöglicht es die Aufteilung, dass jeder Schritt von einem anderen Programm durchgeführt werden kann, was die Modularität und Wiederverwendbarkeit des Compilers erhöht. Darüber hinaus können die verschiedenen Schritte unabhängig voneinander optimiert werden, was die Gesamtleistung des Compilers verbessert.
+Die Aufteilung in Phasen hat mehrere Vorteile. Zum einen ist es einfacher, die einzelnen Schritte zu verstehen und zu überprüfen, ob sie korrekt ausgeführt wurden. Zum anderen ermöglicht es die Aufteilung, dass jeder Schritt von einem anderen Program durchgeführt werden kann, was die Modularität und Wiederverwendbarkeit des Compilers erhöht. Darüber hinaus können die verschiedenen Schritte unabhängig voneinander optimiert werden, was die Gesamtleistung des Compilers verbessert.
 
 Es gibt auch Nachteile bei der Aufteilung in Phasen. Zum Beispiel kann es zu Problemen kommen, wenn ein Schritt fehlerhaft ist und die Ausgabe an den nächsten Schritt weitergegeben wird. In diesem Fall kann es schwierig sein, den Fehler zu finden und zu beheben. Außerdem kann die Aufteilung in Phasen dazu führen, dass der Compiler langsamer wird, da jeder Schritt zusätzliche Verarbeitungszeit benötigt.
 
 #### Was sind andere Compiler-Arten?
-Es gibt auch andere Möglichkeiten, einen Compiler zu implementieren. Einige Compiler verwenden beispielsweise eine sogenannte Just-in-Time-Kompilierung, bei der der Quellcode zur Laufzeit in Maschinencode übersetzt wird. Andere Compiler verwenden eine Interpretationstechnik, bei der der Quellcode Zeile für Zeile ausgeführt wird, ohne dass er in Maschinencode übersetzt wird.
+Es gibt auch andere Möglichkeiten, einen Compiler zu implementieren. Einige Compiler verwenden beispielsweise eine sogenannte Just-in-Time-Kompilierung, bei der der Quellcode zur Laufzeit in Maschinencode übersetzt wird. Andere Compiler verwenden eine Interpretationstechnik, bei der der Quellcode Zeile für Zeile ausgeführt wird, ohne dass dieser in Maschinencode übersetzt wird.
 
 Insgesamt ist die Aufteilung in Phasen jedoch eine bewährte Methode zur Implementierung eines Compilers und wird von den meisten modernen Compilern verwendet. Andere Sprachen verwenden ähnliche Techniken zur Übersetzung von Quellcode in Maschinencode.
 
@@ -90,7 +90,7 @@ http://csapp.cs.cmu.edu/2e/ch1-preview.pdf
 
 #### Grundlagen und Rolle von Caches
 - **Definition**: Caches sind spezielle Speichereinheiten, die Daten temporär speichern, um den Zugriff auf häufig genutzte Informationen zu beschleunigen.
-- **Zweck**: Sie dienen dazu, die Lücke zwischen der hohen Verarbeitungsgeschwindigkeit des Prozessors und der langsameren Geschwindigkeit des Hauptspeichers zu überbrücken.
+- **Zweck**: Sie dienen dazu, die Lücke zwischen der hohen Verabreitungsgeschwindigkeit des Prozessors und der langsameren Geschwindigkeit des Hauptspeichers zu überbrücken.
 
 #### Organisationsstruktur
 - **Ebenen**: Caches sind in Ebenen organisiert (L1, L2, L3), wobei jede Ebene ihre eigene Größe und Geschwindigkeit hat.
