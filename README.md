@@ -11,7 +11,7 @@ Zu fast jeder Vorlesung wurden Aufgaben gestellt. Die Antworten auf diese Aufgab
 
 Im Ordner 'paper' befindet sich das Paper, welches zusätzlich zum Projekt angefertigt wurde. Es beschreibt die verwendeten Algorithmen und allgemeine Herangehensweise.
 
-## poject
+## project
 
 Im 'project'-Ordner ist das Projekt zu finden. Das Projekt wurde in Zusammenarbeit mit Robert Josef Domogalla und Yassine Jabrane angefertigt. 
 
